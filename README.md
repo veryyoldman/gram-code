@@ -81,7 +81,7 @@ On Mac OS, Gram can be installed using [Homebrew](https://brew.sh):
 brew install --cask gram
 ```
 
-<!--
+
 ## 🪟 Windows Installation
 ### **Step 1 — Open Command Prompt**
 1. Press **Win + R**
